@@ -1,0 +1,28 @@
+app:
+  id: janecare
+  name: JaneCare
+  version: 0.1.0
+  description: AI-assisted social-care coordination managed by JaneOS
+  management_api: /api/janeos
+
+capabilities:
+  - cases.read
+  - cases.coordinate
+  - tasks.manage
+  - referrals.manage
+  - providers.coordinate
+  - reports.prepare
+  - reports.validate
+  - alerts.emit
+  - metrics.read
+  - lifecycle.inspect
+
+human_controlled:
+  - eligibility.final_decision
+  - safeguarding.final_decision
+  - coercive_intervention
+  - assistance.denial
+  - benefit.suspension
+  - medical.determination
+  - legal.binding_determination
+  - government.consequential_submission

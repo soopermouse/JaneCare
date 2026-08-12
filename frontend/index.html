@@ -1,0 +1,6 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>JaneCare</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<div id="login-screen" class="login-screen"><div class="login-card"><div class="login-brand">J</div><h1>JaneCare</h1><p>Secure care coordination managed by Jane</p><form id="login-form"><label>Email<input id="email" type="email" autocomplete="username" required></label><label>Password<input id="password" type="password" autocomplete="current-password" required></label><button class="primary" type="submit">Sign in</button><div id="login-error" class="error"></div></form><p class="note">Development build. Use configured JaneCare identities.</p></div></div>
+<div id="app-shell" class="hidden shell"><aside><div class="brand"><span>J</span><div><b>JaneCare</b><small id="role-label">secure access</small></div></div><nav id="nav"></nav><div class="account"><b id="account-name"></b><small id="account-role"></small><button id="logout">Sign out</button></div></aside>
+<main><header><div><h1 id="title"></h1><p id="subtitle"></p></div><button id="refresh">Refresh</button></header><section id="content"></section></main></div>
+<script src="app.js"></script></body></html>
